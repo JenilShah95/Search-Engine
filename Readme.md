@@ -9,4 +9,4 @@ https://gist.github.com/larsyencken/1440509
 I populate a trie with the words extracted from the website urls and store their occurrency list. Then, the trie is ready to perform searching.
 
 # Running the project
-For running the file just import and install the jar file submitted along with the submission and then run the project. It will ask you to enter the search terms and return the result of the website url where the word is found or if not found.
+For running the file just import and install the jsoup jar file submitted along with the submission and then run the project. It will ask you to enter the search terms and return the result of the website url where the word is found or if not found.
