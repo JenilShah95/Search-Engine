@@ -11,7 +11,7 @@ public class Main {
 		Engine engine = new Engine("input.txt");
 		System.out.println("All set! Good to go!");
 		System.out.println();
-		System.out.println("Type the word you want to search or else type 'exit' to close!");
+		System.out.println("Type the word you want to search or else type 'quit' to close!");
 		String wordtosearch = scanner.nextLine();
 		while (!wordtosearch.trim().toLowerCase().equals("quit")) {
 			String[] multiplewords = wordtosearch.split("[[,]*|[ ]*]+");
